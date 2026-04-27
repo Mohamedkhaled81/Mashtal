@@ -12,12 +12,28 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-const pages = ['PRODUCTS', 'PLANTS', 'GUIDES', 'GIFTS','CONTACT', 'ABOUT'];
+const pages = ['PLANTS', 'GUIDES', 'GIFTS','CONTACT', 'ABOUT'];
 const settings = ['Profile', 'Sign-Up/Login', 'Logout'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+  const imgRef = React.useRef(null);
+  const navRef = React.useRef(null);
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const rect = navRef.current.getBoundingClientRect();
+      if(rect.top <= 0) {
+        imgRef.current.classList.add("fadeIn");
+      }else{
+        imgRef.current.classList.remove("fadeIn");
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -35,11 +51,11 @@ function NavBar() {
   };
 
   return (
-    <AppBar sx={{background: '#768068', position: "sticky", top: 0, zIndex: 1000}}>
+    <AppBar ref={navRef}  sx={{background: '#768068', position: "sticky", top: 0, zIndex: 1000}}>
       <Container maxWidth="xl" sx={{px: { xs: 2, sm: 4, md: 8 }}}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box sx={{ display: { xs: 'none', md: 'flex'}}}>
-            <img src='https://www.mashtalegypt.com/wp-content/themes/mashtal/img/logo-white.png?h=NfXYSuTFsLJKHNgaAtdF/' style={{width: '150px', display:'block'}}></img>
+            <img ref={imgRef} className='Logo' src='https://www.mashtalegypt.com/wp-content/themes/mashtal/img/logo-white.png?h=NfXYSuTFsLJKHNgaAtdF/' style={{width: '150px', display:'block'}}></img>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
