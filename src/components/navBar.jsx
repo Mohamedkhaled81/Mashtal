@@ -31,6 +31,7 @@ function NavBar() {
         imgRef.current.classList.remove("fadeIn");
       }
     }
+    
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);

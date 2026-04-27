@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,4 +16,51 @@ body {
 
 .fadeIn {
   opacity: 1;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #F7F6F2;
+}
+
+.swiper-slide {
+  color: #F7F6F2;
+  box-sizing: border-box;
+  padding: 5% 10%;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+
+  z-index: 0;
+}
+
+.parallax-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* adjust darkness */
+}
+
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.5;
 }
