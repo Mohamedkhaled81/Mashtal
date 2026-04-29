@@ -2,9 +2,7 @@ import {
   Box, 
   Container, 
   Grid, 
-  Typography, 
-  TextField, 
-  Button, 
+  Typography,
   IconButton, 
   Link, 
   Stack,
@@ -45,7 +43,7 @@ const Footer = () => {
                 mb: 2,
               }}
             >
-              Green Haven
+              Mashtal
             </Typography>
             <Typography
               variant="body2"
