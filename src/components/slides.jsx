@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Parallax, Pagination, Navigation } from 'swiper/modules';
 
-export default function App() {
+export default function SLideShow() {
   return (
     <>
       <Swiper
