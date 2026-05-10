@@ -1,0 +1,365 @@
+{
+  "plants": [
+    {
+      "id": "plant_001",
+      "sku": "PL-IND-001",
+      "name": "Snake Plant",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Hardy",
+        "Low-Maintenance"
+      ],
+      "price": 150,
+      "discount": 10,
+      "stock": 25,
+      "image": "/images/prod2.jpeg",
+      "description": "A hardy, low-maintenance plant with striking green and yellow striped leaves. Perfect for beginners and air purification.",
+      "createdAt": "2026-05-04T10:00:00Z",
+      "updatedAt": "2026-05-04T10:00:00Z"
+    },
+    {
+      "id": "plant_002",
+      "sku": "PL-IND-002",
+      "name": "Monstera Deliciosa",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Tropical",
+        "Statement"
+      ],
+      "price": 300,
+      "discount": 30,
+      "stock": 10,
+      "image": "/images/prod3.jpeg",
+      "description": "A trendy tropical plant with distinctive split leaves. Thrives in bright, indirect light and adds a statement to any room.",
+      "createdAt": "2026-05-04T10:05:00Z",
+      "updatedAt": "2026-05-04T10:05:00Z"
+    },
+    {
+      "id": "plant_003",
+      "sku": "PL-IND-003",
+      "name": "Areca Palm",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Elegant",
+        "Tropical"
+      ],
+      "price": 250,
+      "discount": 5,
+      "stock": 15,
+      "image": "/images/prod4.jpeg",
+      "description": "An elegant tropical palm with feathery green fronds. Excellent for adding height and tropical vibes to your space.",
+      "createdAt": "2026-05-04T10:10:00Z",
+      "updatedAt": "2026-05-04T10:10:00Z"
+    },
+    {
+      "id": "plant_004",
+      "sku": "PL-SUC-001",
+      "name": "Aloe Vera",
+      "category": "Succulents",
+      "characteristics": [
+        "Medicinal",
+        "Drought-Tolerant"
+      ],
+      "price": 120,
+      "discount": 0,
+      "stock": 40,
+      "image": "/images/prod2.jpeg",
+      "description": "A succulent powerhouse known for its medicinal gel. Low maintenance and drought-tolerant, perfect for sunny locations.",
+      "createdAt": "2026-05-04T10:15:00Z",
+      "updatedAt": "2026-05-04T10:15:00Z"
+    },
+    {
+      "id": "plant_005",
+      "sku": "PL-IND-004",
+      "name": "Spider Plant",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Adaptable",
+        "Elegant"
+      ],
+      "price": 180,
+      "discount": 15,
+      "stock": 30,
+      "image": "/images/prod3.jpeg",
+      "description": "A classic houseplant with arching leaves and baby plantlets. Highly adaptable and excellent for improving air quality.",
+      "createdAt": "2026-05-04T10:20:00Z",
+      "updatedAt": "2026-05-04T10:20:00Z"
+    },
+    {
+      "id": "plant_006",
+      "sku": "PL-IND-005",
+      "name": "Peace Lily",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Elegant",
+        "Graceful"
+      ],
+      "price": 200,
+      "discount": 10,
+      "stock": 12,
+      "image": "/images/prod4.jpeg",
+      "description": "An elegant plant with dark green leaves and white spathes. Tolerates low light and indicates when it needs water.",
+      "createdAt": "2026-05-04T10:25:00Z",
+      "updatedAt": "2026-05-04T10:25:00Z"
+    },
+    {
+      "id": "plant_007",
+      "sku": "PL-SUC-002",
+      "name": "Jade Plant",
+      "category": "Succulents",
+      "characteristics": [
+        "Prosperous",
+        "Durable"
+      ],
+      "price": 90,
+      "discount": 0,
+      "stock": 50,
+      "image": "/images/prod2.jpeg",
+      "description": "A succulent with thick, jade-green leaves that resemble coins. Known as the money plant, symbolizing prosperity and good fortune.",
+      "createdAt": "2026-05-04T10:30:00Z",
+      "updatedAt": "2026-05-04T10:30:00Z"
+    },
+    {
+      "id": "plant_008",
+      "sku": "PL-IND-006",
+      "name": "Fiddle Leaf Fig",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Statement",
+        "Striking"
+      ],
+      "price": 450,
+      "discount": 20,
+      "stock": 5,
+      "image": "/images/prod3.jpeg",
+      "description": "A statement plant with large, violin-shaped leaves. Requires bright light and proper care but makes a stunning focal point.",
+      "createdAt": "2026-05-04T10:35:00Z",
+      "updatedAt": "2026-05-04T10:35:00Z"
+    },
+    {
+      "id": "plant_009",
+      "sku": "PL-IND-007",
+      "name": "Rubber Plant",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Robust",
+        "Modern"
+      ],
+      "price": 220,
+      "discount": 10,
+      "stock": 18,
+      "image": "/images/prod4.jpeg",
+      "description": "A robust plant with glossy, deep green leaves. Excellent for air purification and adds a modern touch to any interior.",
+      "createdAt": "2026-05-04T10:40:00Z",
+      "updatedAt": "2026-05-04T10:40:00Z"
+    },
+    {
+      "id": "plant_010",
+      "sku": "PL-SUC-003",
+      "name": "Echeveria",
+      "category": "Succulents",
+      "characteristics": [
+        "Colorful",
+        "Rosette"
+      ],
+      "price": 75,
+      "discount": 5,
+      "stock": 60,
+      "image": "/images/prod2.jpeg",
+      "description": "A beautiful rosette-shaped succulent with fleshy leaves. Comes in various colors and is perfect for garden arrangements.",
+      "createdAt": "2026-05-04T10:45:00Z",
+      "updatedAt": "2026-05-04T10:45:00Z"
+    },
+    {
+      "id": "plant_011",
+      "sku": "PL-IND-008",
+      "name": "Pothos",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Versatile",
+        "Trailing"
+      ],
+      "price": 130,
+      "discount": 0,
+      "stock": 35,
+      "image": "/images/prod3.jpeg",
+      "description": "A versatile vining plant that thrives in various light conditions. Great for hanging baskets or climbing up supports.",
+      "createdAt": "2026-05-04T10:50:00Z",
+      "updatedAt": "2026-05-04T10:50:00Z"
+    },
+    {
+      "id": "plant_012",
+      "sku": "PL-IND-009",
+      "name": "Zanzibar Gem",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Exotic",
+        "Hardy"
+      ],
+      "price": 280,
+      "discount": 15,
+      "stock": 20,
+      "image": "/images/prod4.jpeg",
+      "description": "An exotic plant with glossy, deep green leaflets arranged on stems. Extremely hardy and drought-tolerant with elegant appeal.",
+      "createdAt": "2026-05-04T10:55:00Z",
+      "updatedAt": "2026-05-04T10:55:00Z"
+    },
+    {
+      "id": "plant_013",
+      "sku": "PL-SUC-004",
+      "name": "Zebra Cactus",
+      "category": "Succulents",
+      "characteristics": [
+        "Compact",
+        "Unique"
+      ],
+      "price": 95,
+      "discount": 0,
+      "stock": 45,
+      "image": "/images/prod2.jpeg",
+      "description": "A compact succulent with distinctive white stripes on green leaves. Ideal for small spaces and xeriscaping gardens.",
+      "createdAt": "2026-05-04T11:00:00Z",
+      "updatedAt": "2026-05-04T11:00:00Z"
+    },
+    {
+      "id": "plant_014",
+      "sku": "PL-IND-010",
+      "name": "Boston Fern",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Classic",
+        "Delicate"
+      ],
+      "price": 160,
+      "discount": 10,
+      "stock": 22,
+      "image": "/images/prod3.jpeg",
+      "description": "A classic fern with delicate, feathery fronds. Perfect for humid environments and adds a soft, natural aesthetic to any room.",
+      "createdAt": "2026-05-04T11:05:00Z",
+      "updatedAt": "2026-05-04T11:05:00Z"
+    },
+    {
+      "id": "plant_015",
+      "sku": "PL-IND-011",
+      "name": "Bird of Paradise",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Stunning",
+        "Tropical"
+      ],
+      "price": 550,
+      "discount": 25,
+      "stock": 8,
+      "image": "/images/prod4.jpeg",
+      "description": "A stunning tropical plant with vibrant orange and blue flowers resembling a bird. Makes a spectacular centerpiece when blooming.",
+      "createdAt": "2026-05-04T11:10:00Z",
+      "updatedAt": "2026-05-04T11:10:00Z"
+    },
+    {
+      "id": "plant_016",
+      "sku": "PL-SUC-005",
+      "name": "String of Pearls",
+      "category": "Succulents",
+      "characteristics": [
+        "Delicate",
+        "Trailing"
+      ],
+      "price": 140,
+      "discount": 5,
+      "stock": 15,
+      "image": "/images/prod2.jpeg",
+      "description": "A delicate trailing succulent with round, pearl-like leaves. Perfect for hanging planters and adds unique texture to displays.",
+      "createdAt": "2026-05-04T11:15:00Z",
+      "updatedAt": "2026-05-04T11:15:00Z"
+    },
+    {
+      "id": "plant_017",
+      "sku": "PL-IND-012",
+      "name": "English Ivy",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Classic",
+        "Climbing"
+      ],
+      "price": 110,
+      "discount": 0,
+      "stock": 30,
+      "image": "/images/prod3.jpeg",
+      "description": "A classic climbing vine with small, elegant leaves. Can be used as a ground cover or trained to climb walls and trellises.",
+      "createdAt": "2026-05-04T11:20:00Z",
+      "updatedAt": "2026-05-04T11:20:00Z"
+    },
+    {
+      "id": "plant_018",
+      "sku": "PL-IND-013",
+      "name": "Swiss Cheese Plant",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Compact",
+        "Split-Leaf"
+      ],
+      "price": 320,
+      "discount": 15,
+      "stock": 14,
+      "image": "/images/prod4.jpeg",
+      "description": "A close cousin to Monstera with smaller split leaves resembling Swiss cheese. Compact and perfect for smaller spaces.",
+      "createdAt": "2026-05-04T11:25:00Z",
+      "updatedAt": "2026-05-04T11:25:00Z"
+    },
+    {
+      "id": "plant_019",
+      "sku": "PL-SUC-006",
+      "name": "Burro's Tail",
+      "category": "Succulents",
+      "characteristics": [
+        "Striking",
+        "Trailing"
+      ],
+      "price": 125,
+      "discount": 10,
+      "stock": 20,
+      "image": "/images/prod2.jpeg",
+      "description": "A striking trailing succulent with long tails of plump, overlapping leaves. Ideal for hanging baskets and looks stunning when trailing.",
+      "createdAt": "2026-05-04T11:30:00Z",
+      "updatedAt": "2026-05-04T11:30:00Z"
+    },
+    {
+      "id": "plant_020",
+      "sku": "PL-IND-014",
+      "name": "Calathea Orbifolia",
+      "category": "Indoor Plants",
+      "characteristics": [
+        "Eye-Catching",
+        "Artistic"
+      ],
+      "price": 270,
+      "discount": 20,
+      "stock": 10,
+      "image": "/images/prod3.jpeg",
+      "description": "An eye-catching plant with large, silvery-green leaves with darker markings. Requires humidity and indirect light for best results.",
+      "createdAt": "2026-05-04T11:35:00Z",
+      "updatedAt": "2026-05-04T11:35:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "u1",
+      "customerName": "Test",
+      "customerEmail": "test@example.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Plant",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 10,
+      "paymentStatus": "paid",
+      "stripePaymentIntentId": "pi_test_123",
+      "createdAt": "2026-05-10T00:00:00.000Z",
+      "id": "YM-vaL8aIhU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
